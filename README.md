@@ -11,7 +11,7 @@
    
     5.CardView实现卡片式布局，在Activity中可控制显示的列数 
     
-    6.CollsapsingToolBar实现折叠式标题栏，在Story、Color中有所体现  
+    6.CollsapsingToolBar实现折叠式标题栏，在Story、Color、liststory、listcolor中有所体现  
     
     7.NavigationView+DrawerLayout+ViewPager+TabLyout+LinearLayout实现侧滑栏与顶部导航栏的共存，并实现导航栏的点击或滑动实现切页  
     
@@ -20,4 +20,6 @@
     9.在more中用WebView实现网站的连接跳转  
     
     10.在BlackFlower中实现对JSON数据的解析
+    
+    
     
