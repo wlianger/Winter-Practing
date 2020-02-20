@@ -7,6 +7,8 @@
     
     3.RecyclerView实现列表的向下滑动  
     
+   
+  
     4.NavigationView+DrawerLayout实现侧滑栏效果，在menu文件中实现侧滑栏中菜单的布局，nav_header中实现侧滑栏的顶部布局，加入头像，昵称，邮箱等  
     5.CardView实现卡片式布局，在Activity中可控制显示的列数 
     
