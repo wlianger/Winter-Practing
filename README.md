@@ -1,4 +1,4 @@
-# FloewrWorld
+# FlowerWorld
     这个项目的主要功能是展示花朵的图片，了解一些花语，以及一些花朵的神话传说，以及一些花的文化。
 ##  功能实现以及所使用的控件和技术介绍
     1.AppBarLayout+ToolBar+ViewPager+LinearLayout实现了顶部5张图的轮流播放  
