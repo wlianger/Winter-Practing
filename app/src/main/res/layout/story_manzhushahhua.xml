@@ -1,0 +1,204 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/top_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="parallax" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_top"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"/>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="35dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="曼珠沙华传说"
+                    android:textColor="#c4587c"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#f1e7e7"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="        传说，很久很久以前，某个城市的边缘开满了大片大片的曼珠沙华，也就是彼岸花，它的花香有一种魔力，可以让人想起自己前世的事情。守护彼岸花的是两个妖精，一个是花妖叫曼珠，一个是叶妖叫沙华。他们守侯了几千年的彼岸花，可是从来没有见过面，因为开花的时候，就没有叶子，有叶子的时候没有花。他们疯狂地想念着彼此，并被这种痛苦折磨着。终于有一天，他们决定违背神的规定偷偷地见一次面。那一年的曼珠沙华红艳艳的花被惹眼的绿色衬托着，开得格外妖冶美丽。"
+                    android:textColor="#717372"
+                    android:textSize="15dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         神怪罪下来，这也是意料之中的。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         曼珠和沙华被打入轮回，并被诅咒永远也不能在一起，生生世世在人世间受到磨难。从那以后，曼珠沙华又叫彼岸花，意思是开放在天国的花，它的花的形状像一只只在向天堂祈祷的手掌，可是再也没有在这个城市出现过。这种花是开在黄泉路上的，曼珠和沙华的每一次转世在黄泉路上闻到彼岸花的香味就能想起前世的的自己，然后发誓不分开，在下一世再次跌入诅咒的轮回。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         传说曼珠沙华轮回无数后，有一天佛来到这里，看见地上一株花气度非凡，妖红似火，佛便来到它前面仔细观看，只一看便看出了其中的奥秘。佛既不悲伤，也不愤怒，他突然仰天长笑三声，伸手把这花从地上给拔了出来。佛把花放在手里，感慨的说道：“前世你们相念不得相见，无数轮回后，相爱不得厮守，所谓分分合合不过是缘生缘灭，你身上有天庭的诅咒，让你们缘尽却不散，缘灭却不分，我不能帮你解开这狠毒的咒语，便带你去那彼岸，让你在那花开遍野吧。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#f1e7e7"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="         佛在去彼岸的途中，路过地府里的忘川河，不小心被河水打湿了衣服，而那里正放着佛带着的这株红花，等佛来到彼岸解开衣服包着的花再看时，发现火红的花朵已经变做纯白，佛沉思片刻，大笑云：大喜不若大悲，铭记不如忘记，是是非非，怎么能分得掉呢，好花，好花呀。佛将这花种在彼岸，叫它曼陀罗华，又因其在彼岸，叫它彼岸花。"
+                    android:textColor="#717372"
+                    android:textSize="15dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         可是佛不知道，他在忘川河上，被河水褪色得花把所有得红色滴在了河水里，终日哀号不断，令人闻之哀伤，地藏菩萨神通非常，得知曼陀罗华已生，便来到河边，拿出一粒种子丢进河里，不一会，一朵红艳更胜之前的花朵从水中长出，地藏将它拿到手里，叹到：你脱身而去，得大自在，为何要把这无边的恨意留在本已苦海无边的地狱里呢？我便让你做个接引使者，指引他们走向轮回，就记住你这一个色彩吧，彼岸已有曼陀罗华，就叫你曼珠沙华吧。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         从此，天下间就有了两种完全不同的彼岸花，一个长在彼岸，一个生在忘川河边。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/heart"
+        app:layout_anchor="@id/appBar"
+        app:layout_anchorGravity="bottom|end"/>
+
+</android.support.design.widget.CoordinatorLayout>

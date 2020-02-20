@@ -1,0 +1,187 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/top_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="parallax" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_top"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"/>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f6e3f9"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="35dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="三色堇传说"
+                    android:textColor="#b954bc"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#f6e3f9"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="        天国里有一个很大很大的花园，每年春暖花开的季节，花园里都会长出不少好看的奇花异草，引来众天神到花园赏花。这一年，赏花的时间又到了。"
+                    android:textColor="#717372"
+                    android:textSize="15dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f6e3f9"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         这天早晨，美神维纳斯起了个大早，仔仔细细梳洗打扮一番，穿上绫罗绸缎的衣裙，戴上光彩夺目的首饰，再带上她的宝贝儿子爱神丘比特，兴冲冲地来到花园裏。这时，许多天神都已经到了，大家围成一圈，不知正在津津有味地欣赏什麼，连美丽的维纳斯来了，也没人顾得上跟她打招呼。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f6e3f9"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         受了冷落的维纳斯心裏有点儿不痛快，以前她走到哪儿都会引起别人的啧啧称赞，今天这是怎麼了？她凑上去一看，原来大家正忙著观赏堇菜花呢，堇菜花开得十分茂盛，特别引人注目，众天神都赞不绝口。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f6e3f9"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         维纳斯的妒忌心一向很强，她始终认为天上人间最美的当然应该是美神，最怕别人说有什麼东西比她更美，於是就问她的儿子丘比特：“好儿子，你给我仔细瞧瞧，这些堇菜花和妈妈比起来，究竟谁更美丽？”没料到天真的丘比特却想也没想便脱口而出：“当然是堇菜花罗！”天神们听了都哈哈大笑起来，维纳斯一听，顿时火冒三丈，怒气冲天，一整天都不再跟别人说话。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#f6e3f9"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="         天黑了，天神们陆陆续续回家去了，维纳斯走到堇菜花跟前，左看右看，越想越恼火，於是举起皮鞭便向堇菜花抽打，边打还边恨恨地说：“我叫你比我美！我叫你比我美！”直到打累了才停下来。因为天黑，维纳斯也看不清楚，心想这下堇菜花该死了吧，就得意洋洋地回家了。没想到堇菜花生命力挺顽强，它虽然受了重伤却没有死，依然坚强地活著，只是因为挨了鞭打，它的脸上青一块，紫一块，留下了深浅不同的斑痕，成了“花猫脸”。"
+                    android:textColor="#717372"
+                    android:textSize="15dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f6e3f9"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         第二年春天，堇菜花又开了，它从原来的单色变成了一朵花上有好几种颜色的“三色堇”，可没想到的是，这种“花猫脸”使它看起来比以前更加美丽动人，在赏花会上赢得了众天神更多的称赞。原来，三色堇上的棕色图案，是天使来到人间的的时候，亲吻了它三次而留下的，又有人说，当天使亲吻三色堇花的时候，她的容颜就印在花瓣上了。所以每一个见到三色堇的人，都会有幸福的结局。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/heart"
+        app:layout_anchor="@id/appBar"
+        app:layout_anchorGravity="bottom|end"/>
+
+</android.support.design.widget.CoordinatorLayout>

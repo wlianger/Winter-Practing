@@ -1,0 +1,187 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/top_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="parallax" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_top"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"/>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#ffffff"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="35dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="昙花传说"
+                    android:textColor="#b7b6b6"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="        昙花原是一位花神，她每天都开花，四季都灿烂。她还爱上了每天给她浇水除草的年轻人。后来此事给玉帝得知，玉帝于是大发雷霆要拆散鸳鸯。玉帝将花神抓了起来，把她贬为每年只能开一瞬间的昙花，不让她再和情郎相见，还把那年轻人送去灵鹫山出家，赐名韦陀，让他忘记前尘，忘记花神。"
+                    android:textColor="#717372"
+                    android:textSize="15dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#ffffff"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         多年过去了，韦陀果真忘了花神，潜心习佛，渐有所成。而花神却怎么也忘不了那个曾经照顾她的小伙子。她知道每年暮春时分，韦陀总要下山来为佛祖采集朝露煎茶。所以昙花就选择在那个时候开放。她把集聚了整整一年的精气绽放在那一瞬间。她希望韦陀能回头看她一眼，能记起她。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#ffffff"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         可是千百年过去了，韦陀一年年的下山来采集朝露。昙花一年年的默默绽放。韦陀始终没有记起她。直到有一天一名枯瘦的男子从昙花身边走过，看到花神忧郁孤苦之情。便停下脚步问花神“你为什么哀伤？”。花神惊异，因为凡人是看不到花神的真身。如果是大罗金仙头上有金光，刚刚从身边走过的明明是一个凡人，如何看得见自己的真身。花神犹豫片刻只是答到“你帮不了我”。又默默等等待韦陀，不再回答那个男子的话。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#ffffff"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         40年后那个枯瘦男子又从昙花身边走过，重复问了40年前的那句话“你为什么哀伤？”花神再次犹豫片刻只是答道“你也许帮不了我”。枯瘦的男子笑了笑离开。再40年后一个枯瘦的老人再次出现在花神那里，原本枯瘦的老人看起来更是奄奄一息。当年的男子已经变成老人，但是他依旧问了和80年前一样的话“你为什么哀伤？”。昙花答道“谢谢你这个凡人，在你一生问过我3次，但是你毕竟是凡人，而且已经奄奄一息，还怎么帮我，我是因爱而被天罚的花神”。老人笑了笑，说：“我是聿明氏，我只是来了断80年前没有结果的那段缘分。花神我送你一句：缘起缘灭缘终尽、花开花落花归尘。”说完老人闭目坐下。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="         时间渐渐过去，夕阳的最后一缕光线开始从老人的头发向眼睛划去，老人笑道“昙花一现为韦陀，这般情缘何有错，天罚地诛我来受，苍天无眼我来开”说罢，老人一把抓住花神，此时夕阳滑到了老人的眼睛，老人随即圆寂，抓着花神一同去往佛国去。花神在佛国见到了韦陀。韦陀也终于想起来前世因缘，佛祖知道后准韦陀下凡了断未了的因缘。因为聿明氏老人违反了天规，所以一生灵魂漂泊。不能驾鹤西游、也不能入东方佛国净土，终受天罚永无轮回。"
+                    android:textColor="#717372"
+                    android:textSize="15dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#ffffff"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         昙花一现，只为韦陀。所以昙花又名韦陀花。也因为昙花是在夕阳后见到韦陀，所以昙花都是夜间开放。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/heart"
+        app:layout_anchor="@id/appBar"
+        app:layout_anchorGravity="bottom|end"/>
+
+</android.support.design.widget.CoordinatorLayout>

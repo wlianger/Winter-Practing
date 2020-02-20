@@ -1,0 +1,187 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/top_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="parallax" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_top"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"/>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="35dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="秋海棠传说"
+                    android:textColor="#c4587c"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#f1e7e7"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="        据说东海海边有一个小镇，是个水路通商的码头，那里客商云集，热闹非凡，一片繁荣景象。在这个小镇上的每户人家都喜欢种花，家家户户都摆放着各式各样的鲜花。镇上有个名叫贵棠的人，家有娘子、孩子和老母，靠着种花、卖花养活一家人，日子过得相当贫困。"
+                    android:textColor="#717372"
+                    android:textSize="15dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         贵棠的娘子除了帮贵棠种花之外，还剪得一手好花样，通过卖这些花样来贴补家用。她见到什么花，就能剪出什么花样，而且一剪就像，左邻右舍无不夸她的手巧、手艺好。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         这天，她在街上卖花样，一个海外来的客商对她说：“大嫂啊！您剪的花样好是好，不过您如果能做个纸花、绢花，那就更好啦，我可以给您出个好价钱呢！”贵棠的娘子听了客商的话，高兴地说：“好啊，我做做看，要是好的话，您就买。”贵棠的娘子回家后就开始做起来，很快她就做了一篮子各式各样的纸花和绢花。客商看到后，非常满意，高兴地拍手叫好，当场付了好价钱，后来都卖到海外去了。然而，贵棠夫妇虽然能种花、做花，生活却一样过得相当清苦。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         有一天，贵棠对娘子说：“娘子啊！你做纸花、绢花被客商带到海外卖得好价钱，我想，倒不如让我拿到海外去卖，日子也许会好过些！”贵棠娘子眼圈红红的，舍不得丈夫远离家门，然而为了生计，也只好点头同意了。于是，贵棠娘子日以继夜地赶制了一批纸花和绢花，并依依不舍地送贵棠出门了。贵棠带着这些花，搭船到海外去了。贵棠的娘子就在家里一天一天地守候着，盼望丈夫早点回家。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#f1e7e7"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="         贵棠出门时正是菊花盛开的时候，而当山茶都已经吐露芬芳了，贵棠却还没有回来。贵棠的娘子每天依靠在北窗前，朝海边张望，真是望眼欲穿。思念的泪水一滴一滴地滴落在北窗下，不知掉了多少滴？奇妙的是，在眼泪滴落的地方居然长出了一株花草来，叶子正面是绿色的，背面是红色的，而那开着的花朵就像贵棠娘子滴下的点点泪珠一般，晶莹剔透，若人怜爱。另有一说，是由于贵棠娘子因思念过度所咳出来的血变成的。"
+                    android:textColor="#717372"
+                    android:textSize="15dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         人们说贵棠是秋天出海的，这花儿也是秋天盛开的，就以此花来纪念他，于是称它为“秋海棠”。又因此花是贵棠娘子想念丈夫心切，伤心哭泣的眼泪变成的，于是又叫它“断肠花”或“相思草”。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/heart"
+        app:layout_anchor="@id/appBar"
+        app:layout_anchorGravity="bottom|end"/>
+
+</android.support.design.widget.CoordinatorLayout>

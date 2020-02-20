@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="15dp"
+                app:cardBackgroundColor="#a48888"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:text="死亡花语"
+                    android:textColor="#e7ced0"
+                    android:textSize="24dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#a48888"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/die_bianhua" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="彼岸花"
+                        android:textColor="#efdcdc"
+                        android:textSize="19dp" />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#a48888"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        彼岸花在很多人的心中也是一种非常恐怖的花，彼岸花象征着死亡、低地狱的召唤。在民间，彼岸花更是被称之为死人花，因为彼岸花的花期在秋分的后三天，而秋分正好是上坟的日子，人们在去上坟的路上看到开满血红色的彼岸花会觉得非常的阴森，所以它也被称为黄泉路上的花。"
+                    android:textColor="#efdcdc"
+                    android:textSize="16dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#a48888"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        相传彼岸花只开在黄泉中，所以被认为是开在冥界三途河边、忘川彼岸的接引之花。也因为彼岸花的花色如血一样绚烂鲜红，而且是有花无叶、有叶无花，花叶永不相见，就被人们认为是冥界唯一的花。传说彼岸花的花香是有魔力的，能唤起死者生前的记忆，美丽的彼岸花其实也是黄泉路上唯一的风景与色彩。当灵魂渡过忘川，便忘却生前的种种，曾经的一切都留在了彼岸，往生者就踏着这花的指引通向幽冥之狱。"
+                    android:textColor="#efdcdc"
+                    android:textSize="16dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#a48888"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        彼岸花被认为是只开在彼岸的天国，但它也代表着无尽的爱情、死亡的前兆、地狱的召唤等含义。"
+                    android:textColor="#efdcdc"
+                    android:textSize="16dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#a48888"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/die_mantuoluo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="曼陀罗"
+                        android:textColor="#efdcdc"
+                        android:textSize="19dp" />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#a48888"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        曼陀罗花被称为冥界四花之一，主要是因为曼陀罗花是一种有毒的花，它长得美丽，漂亮但全草有毒，种子的毒性更是非常强大，如果不小心误食，最快20分钟就会出现中毒症状，中毒严重则可能会在24小时后出现昏睡、痉挛、甚至昏迷死亡的情况，所以曼陀罗的毒性还是不能小觑的。"
+                    android:textColor="#efdcdc"
+                    android:textSize="16dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#a48888"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        其实曼陀罗花在很多人的心中拥有恐怖的魔力主要还是与它的花语有关系，曼陀罗花有着不同的花色，每种不同颜色的曼陀罗花花语都是不一样的。在世界上花语最恐怖的花中也提到过曼陀罗花，紫色曼陀罗花的花语是恐怖，蓝色曼陀罗的花语是诈情和骗爱，黑色曼陀罗花的花语是不可预知的黑暗、死亡和无间的爱与复仇，花语都给人非常恐怖的感觉。"
+                    android:textColor="#efdcdc"
+                    android:textSize="16dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#a48888"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        曼陀罗花被称为冥界四花中有着洞察幽冥能力的花，曼陀罗能够超然觉悟，幻化出无穷的力量，是一种让人心生恐惧的花。"
+                    android:textColor="#efdcdc"
+                    android:textSize="16dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#a48888"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/die_kasabulanka" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="卡萨布兰卡"
+                        android:textColor="#efdcdc"
+                        android:textSize="19dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#a48888"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        很多人知道卡萨布兰卡，但却很少人知道那是种花的名字，它是世上最美的百合花，而在希腊神话中，那是悲剧之花。传说中，遇见卡萨布兰卡的情侣无不以死亡作为这段无望恋情的终结。然而，它还有另一个少为人知的含义，那就是 - 幸福。但凡事物都有其两面性，有因必有果，有好就有坏。爱情就最能体现这种双面性，伤人却又诱人，使人幸福也可以使人绝望，为什么不选择幸福却要选择绝望呢？送你一束卡萨布兰卡，幸福是它唯一的含义。"
+                    android:textColor="#efdcdc"
+                    android:textSize="16dp" />
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#a48888"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/die_yingsu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="罂粟花"
+                        android:textColor="#efdcdc"
+                        android:textSize="19dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#a48888"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        罂粟花其实也是很多人认定的“冥界四花”之一，因为在传说中，罂粟花有着一种能够引诱我们走向毁灭的诱惑力。这种美的诱惑非常的强大，强大到可以让很多人愿意接受这种诱惑而走向毁灭，象征着一种自我毁灭性的对美的追求。"
+                    android:textColor="#efdcdc"
+                    android:textSize="16dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="35dp"
+                app:cardBackgroundColor="#a48888"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        罂粟花其实也是很多人认定的“冥界四花”之一，因为在传说中，罂粟花有着一种能够引诱我们走向毁灭的诱惑力。这种美的诱惑非常的强大，强大到可以让很多人愿意接受这种诱惑而走向毁灭，象征着一种自我毁灭性的对美的追求。"
+                    android:textColor="#efdcdc"
+                    android:textSize="16dp" />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

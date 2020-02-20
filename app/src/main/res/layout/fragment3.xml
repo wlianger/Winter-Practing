@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginBottom="15dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:text="星座花语"
+                    android:textColor="#bfb0f7"
+                    android:textSize="24dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/baiyang" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="白羊座——红玫瑰"
+                        android:textColor="#bfb0f7"
+                        android:textSize="22dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         白羊座掌管着春天的花朵，是“自我”的知觉者，象征着新的开始。 "
+                    android:textColor="#bfb0f7"
+                    android:textSize="19dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/jinniu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="金牛座——紫罗兰"
+                        android:textColor="#bfb0f7"
+                        android:textSize="22dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         金牛座掌管晚春，是“财富”的拥有者。金牛座不轰轰烈烈，只细水长流，自带温和气质。"
+                    android:textColor="#bfb0f7"
+                    android:textSize="19dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/shuangzi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="双子座——洋梗菊"
+                        android:textColor="#bfb0f7"
+                        android:textSize="22dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         双子座是初夏的花朵，是知识的探究者。双子座聪明伶俐、知性好学、外表高冷实则逗比。"
+                    android:textColor="#bfb0f7"
+                    android:textSize="19dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/juxie" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="巨蟹座——昙花"
+                        android:textColor="#bfb0f7"
+                        android:textSize="22dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         巨蟹座掌管夏天，是“家”的营造者。感性骄傲，多情而敏感，对喜欢的人十分关怀。 "
+                    android:textColor="#bfb0f7"
+                    android:textSize="19dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/shizi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="狮子座——向日葵"
+                        android:textColor="#bfb0f7"
+                        android:textSize="22dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         狮子座掌管盛夏，是狂热的“创造”者，充满激情与影响力，具有王者气质，脾气相当不好呦！"
+                    android:textColor="#bfb0f7"
+                    android:textSize="19dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/chunv" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="处女座——满天星"
+                        android:textColor="#bfb0f7"
+                        android:textSize="22dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         处女座掌管夏末秋初的花朵，是知识的“精炼”者，众所周知的完美主义者，有精神洁癖和强迫症。"
+                    android:textColor="#bfb0f7"
+                    android:textSize="19dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/tianchen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="天秤座——嘉兰"
+                        android:textColor="#bfb0f7"
+                        android:textSize="22dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         天秤座掌管秋季，是“合作”关系的权衡者，通常有流畅的人际关系，有严重的选择恐惧症。"
+                    android:textColor="#bfb0f7"
+                    android:textSize="19dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image8"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/tianxie" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="天蝎座——罂粟"
+                        android:textColor="#bfb0f7"
+                        android:textSize="22dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         天蝎座掌管深秋，是“生命”的蜕变者。天蝎座相对自我，甚至霸道，脑瓜聪明且腹黑。 "
+                    android:textColor="#bfb0f7"
+                    android:textSize="19dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sheshou" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="射手座——天堂鸟"
+                        android:textColor="#bfb0f7"
+                        android:textSize="22dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         射手座掌管着深秋与初冬的植物，是“理想”的追寻者。他们自由、理智、高瞻远瞩，以远方为志向"
+                    android:textColor="#bfb0f7"
+                    android:textSize="19dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/mojie" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="摩羯座——腊梅"
+                        android:textColor="#bfb0f7"
+                        android:textSize="22dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         摩羯座掌管着冬季的植物，是“成就”的长跑者。性格坚忍，有责任心，充满耐力与担当。"
+                    android:textColor="#bfb0f7"
+                    android:textSize="19dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/shuiping" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="水瓶座——棒叶不死鸟"
+                        android:textColor="#bfb0f7"
+                        android:textSize="22dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         水瓶座掌管深冬，是“博爱”的利他者。水瓶座喜欢孤独，拥有无私的情操，丰富的想象力，思维跳跃，无限自恋。  "
+                    android:textColor="#bfb0f7"
+                    android:textSize="19dp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/die_image_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_margin="45dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/shuangyu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="双鱼座——蓝雪花"
+                        android:textColor="#bfb0f7"
+                        android:textSize="22dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="35dp"
+                app:cardBackgroundColor="#1e266b"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/die_text_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="         双鱼座掌管早春植物，是“了解”的包容者。双鱼座浪漫、梦幻，不作不死，内心戏丰富。"
+                    android:textColor="#bfb0f7"
+                    android:textSize="19dp" />
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

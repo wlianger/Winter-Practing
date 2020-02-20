@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/f_image"
+            android:icon="@drawable/image"
+            android:title="花之像"/>
+        <item
+            android:id="@+id/f_huayu"
+            android:icon="@drawable/huayu"
+            android:title="花之语"/>
+        <item
+            android:id="@+id/f_story"
+            android:icon="@drawable/story"
+            android:title="花之说"/>
+        <item
+            android:id="@+id/f_color"
+            android:icon="@drawable/color"
+            android:title="花之色"/>
+        <item
+            android:id="@+id/f_sad"
+            android:icon="@drawable/blackflower"
+            android:title="悲之花"/>
+        <item
+            android:id="@+id/f_more"
+            android:icon="@drawable/more"
+            android:title="更多"/>
+        <item
+            android:id="@+id/f_update"
+            android:icon="@drawable/update1"
+            android:title="更新"/>
+        <item
+            android:id="@+id/f_finish"
+            android:icon="@drawable/finish"
+            android:title="退出"/>
+    </group>
+
+</menu>

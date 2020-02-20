@@ -1,0 +1,152 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/top_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="parallax" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_top"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"/>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#ffffff"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="35dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="水仙花传说"
+                    android:textColor="#b7b6b6"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="        拿斯索斯(Narcissus)是希腊神话里的美少年。他的父亲是河神，母亲是仙女。拿斯索斯出生后，母亲得到神谕:拿斯索斯长大后，会是天下第一美男子;然而，他会因为迷恋自己的容貌，郁郁而终。为了逃避神谕的应验，拿斯索斯的母亲刻意安排儿子在山林间长大，远离溪流、湖泊、大海，为的是让拿斯索斯永远无法看见自己的容貌。拿斯索斯如母亲所愿，在山林间平安长大，而他亦如神谕所料，容貌俊美非凡，成为天下第一美男子。见过他的少女，无不深深地爱上他。然而，拿斯索斯性格高傲，没有一位女子能得到他的爱。他只喜欢整天与友伴在山林间打猎，对于倾情于他的少女不屑一顾。"
+                    android:textColor="#717372"
+                    android:textSize="15dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#ffffff"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         山林女神厄科(Echo)对拿斯索斯一见钟情，但是苦于不能表达自己的感情，只能简单地重复别人的话音。拿斯索斯对她的痴情不理不睬。拿斯索斯的铁石心肠使她伤透了心。她请求维纳斯惩罚他，让他承受痛苦的熬煎。忧郁、期盼、一无所获，使她离开了她往昔的伙伴，漫无目的地走进了森林。在这里，她的忧伤有增无减，容颜憔悴，她从山林消失了，但是，她那柔美的声音始终萦绕幽谷而不去。如果你漫步在寂静的山林，她会回应你的声音。这就是山林女神厄科 - Echo(回音)。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#ffffff"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         拿斯索斯的冷面石心，伤透了少女的心，报应女神娜米西斯(Nemesis)看不过眼，决定教训他。一天，拿斯索斯在野外狩猎，天气异常酷热，不一会儿，他已经汗流浃背。就在这时，微风吹来，渗着阵阵清凉，他循着风向前走。逛着逛着，迎面而来的，是一个水清如镜的湖。湖，对拿斯索斯来说，是陌生的。拿斯索斯走过去，坐在湖边，正想伸手去摸一摸湖水，试试那是一种怎样的感觉，谁知当他定睛在平滑如镜的湖面时，看见一张完美的面孔，不禁惊为天人，拿斯索斯心想:这美人是谁呢?真漂亮呀。凝望了一会儿，他发觉，当他向水中的美人挥手，水中的美人也向他挥手;当他向水中的美人微笑，水中的美人也向他微笑;但当他伸手去触摸那美人，那美人便立刻消失了;当他把手缩回来，不一会儿，那美人又再出现，并情深款款地看着他，拿斯索斯当然不知道浮现湖面的其实就是自己的倒影。他竟然深深地爱上了自己的倒影。为了不愿失去湖中的人儿，他日夜守护在湖边，日子一天一天地过去，拿斯索斯还是不寝不食，不眠不休地呆在湖边，甘心做他心中美人的守护神，他时而伏在湖边休息，时而绕着湖岸漫行，但目光始终离不开水中的倒影，永远是目不转睛地凝望湖面，最后，神谕还是应验了。拿斯索斯因为迷恋自己的倒影，枯坐死在湖边。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#ffffff"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         仙女们知道这件事后，伤心欲绝，赶去湖边，想把拿斯索斯的尸体好好安葬。但拿斯索斯惯坐的湖边，除了长着一丛奇异的小花外，空空如也。原来爱神怜惜拿斯索斯，把他化成水仙花，盛开在有水的地方，让他永远看着自己的倒影。那丛奇异的小花，，清幽脱俗而高傲孤清，甚为美丽。为了纪念拿斯索斯，仙女们就把这种花命名为Narcissus，也就是水仙花了。而这亦是水仙花为何总是长在水边的原故。也因为这个故事，人们用Narcissism形容那些异常喜爱自己容貌、有自恋倾向的人。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/heart"
+        app:layout_anchor="@id/appBar"
+        app:layout_anchorGravity="bottom|end"/>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,187 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/top_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="parallax" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_top"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"/>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="35dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="梅兰传说"
+                    android:textColor="#c4587c"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#f1e7e7"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="        明武宗正德浏览江南，沿途搜掳民间美女和各种珍宝，所到之处，百姓无不怨声载道，恨之 入骨。那时候，兰溪两岸的兰荫山上出产名贵兰花。正德皇帝慕名来到兰溪，心想选几株绝 品，带回皇宫里去。正德皇帝要上兰荫山选兰花的消息，被兰荫寺里的主持知道了。他心中 很着急。 "
+                    android:textColor="#717372"
+                    android:textSize="15dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         为啥呢？只因兰荫山上有一株罕见的梅兰。花如腊梅，异香四溢。这株梅兰， 很可能被皇帝选走。真是急中生智，兰荫寺的主持老和尚很快地想出一个好主意。 他将那株梅兰从土中挖出，把它移栽在一只小香炉里，又用一条很长的绳子缚住 那只小香炉，然后端到山上一口很深的古井旁，手提绳子，缓缓地将小香炉垂放 到井底。 "
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         主持和尚刚刚将梅兰隐藏好，正德皇帝已经在一班侍臣的前呼后拥之下进 了山门。他们在兰荫寺里歇了一会儿之后，正德皇帝便命众侍臣上山去选兰花。 可是，山上的兰花繁多，幽香扑鼻，弄得那些选花的侍臣眼忙手乱，谁都辨不清 那一株是好是次。他们挑来选去，不得不单凭各人的眼光选定几株，以便回兰荫 寺去向皇上交差。正德皇帝把众侍臣选来的各种兰花一一过目，都觉不太中意。 正在这时，突然有一股浓郁的香味从山上飘进兰荫寺来。正德皇帝翘起鼻子深深 地吸了吸香气，立即令众侍臣快快跟随这股香味，去把兰花寻来。于是众侍臣又 离开兰荫寺，赶紧去追香寻花。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         那么，这股奇异的花香究竟是何处传来的呢？原来，隐藏在井底的那株梅 兰，异香喷薄，溢出井口，向四面飘散。那班侍臣便顺着这股异香，一个个伸颈 吸鼻，如同猫儿寻腥一般，一齐走向古井。有个侍臣往井里一看，见井中有截绳 子露在外面，便毛手毛脚地将它往上一拽。只听井中“哗啦”一声，紧接着，一 只缚在绳端的小香炉，被拽出井口，里面连泥巴也没有，似乎香气都是从小香炉 发出来似的。于是他们带着那只小香炉，一齐回到兰荫寺，把一切经过向皇上奏 明。皇上端起那只小香炉，翻过来，覆过去，细细地端详了一番，也没发现什么 奇特之处。他想了一想，便宣召主持老和尚，盘问这只小香炉的底细。主持灵机 一动，答道：“用这小香炉取井中泉水一喝，便可使人的双目明亮。”正德皇帝 信以为真，立即命内侍去那井中提回一香炉的井水，他自己先喝，再叫从侍臣轮 流喝。由于泉水格外清凉，初喝一口，果然使人有明目的感觉。众人喝完泉水， 叫好不绝。但是，正德皇帝对于兰荫山上那口古井能喷溢异香，心中大为惊疑， 便命内侍取来文房四宝，准备题写“兰荫深处有奇香”七字。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                app:cardBackgroundColor="#f1e7e7"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="         谁知当他写下“兰荫深处”四个字时，突然感到头昏目眩，腹中疼痛。你道为何？原来刚才喝 了井水，冷热相冲，感染风寒。众侍臣也一个个捧腹弯腰，叫苦不迭。正德见此情景，心中 大为不悦。一气之下，将手中那支毛笔一甩，只写了半句就不再往下写了，草草落了款。故 而兰荫山石壁上刻有：“御题，兰荫深处，正德十四年五月十六日”。这题字至今一直还留存 着。正德皇帝十分扫兴，闷闷不乐地带领众侍臣走了。这里兰荫寺的主持满笑容，念起了“阿 弥陀佛”。他庆幸那株珍贵的梅兰未被皇帝搜去。于是，他召集兰荫寺所有的大`小和尚，共 同商议打捞梅兰之事。可是，事与愿违。他们也不知花了几天几夜的工夫，把一切打捞的办 法都用尽了，那株珍贵的梅兰却不见了踪影。"
+                    android:textColor="#717372"
+                    android:textSize="15dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#f1e7e7"
+                android:layout_marginRight="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="         据光绪十三年修的《兰溪县志》上记载：“兰荫山多兰蕙。今兰荫山不见兰蕙，而春时登 蹑，往往有香气惹人，咸以为异。”这大概就是指失传的“梅兰”了。"
+                    android:textColor="#717372"
+                    android:textSize="15dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/heart"
+        app:layout_anchor="@id/appBar"
+        app:layout_anchorGravity="bottom|end"/>
+
+</android.support.design.widget.CoordinatorLayout>

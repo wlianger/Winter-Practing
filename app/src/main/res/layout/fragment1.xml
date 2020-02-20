@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#fef6ff"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="百花之语"
+                    android:textColor="#f3a4f7"
+                    android:textSize="24dp"
+                    android:layout_gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#fffcf0"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="梗菊——真诚不变的爱"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#ffe6eb"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="白玫瑰——我足以与你相配 "
+                    android:textColor="#717372"
+                    android:textSize="20dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#d4e4fc"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="熏衣草——等待爱情 "
+                    android:textColor="#717372"
+                    android:textSize="20dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#d6f9cb"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="红色的风信子——让人感动的爱"
+                    android:textColor="#717372"
+                    android:textSize="20dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#e4f9d1"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="时钟花——爱在你身边"
+                    android:textColor="#717372"
+                    android:textSize="20dp"
+                    android:layout_gravity="left"/>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#f7e9df"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="狗尾巴草——暗恋 "
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#efe3f9"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="油桐花——情窦初开 "
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#d1fdcc"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="樱花——生命/等你回来"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#e7fcf5"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="黑色曼佗罗——无间的爱和复仇，绝望的爱，不可预知的死亡和爱 "
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#fdfdec"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="向日葵——沉默的爱 "
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#ffefdf"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="红蔷薇——热恋"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#e7fdf6"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="蓝色妖姬——相守是一种承诺,人世轮回中,怎样才能拥有一份温柔的情意"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#e8fdfb"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="粉蔷薇——爱的誓言"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#e2f3fd"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="白蔷薇——纯洁的爱情"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#efeefc"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="黄蔷薇——永恒的微笑"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#faf2fd"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="深红色蔷薇——只想和你在一起"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#f5e7fd"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="粉红色蔷薇——我要与你过一辈子"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#fdfdec"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="圣诞蔷薇——追忆的爱情 "
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#e4e3e3"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="野蔷薇——浪漫的爱情"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#f9f1fd"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="水仙花——只爱自己"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#f7fff4"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="仙人掌——坚硬坚强"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="彼岸花——悲伤的回忆（日本）/相互思念（韩国）"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#e4e9ff"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="栀子花——永恒的爱/一生的守侯/我们的爱 "
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#e3fdf2"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="蔷薇——爱的思念"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#d3f9e4"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="蒲公英——无法停留的爱"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#fff6f0"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="昙花——刹那的美丽，一瞬间永恒"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#ffecf3"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="波斯菊——永远快乐"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#ffffd7"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="鸢尾——绝望的爱"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#d5e5fd"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="迷迭香——回忆不想忘记得过去,纪念 "
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#d3dcd8"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="龙舌兰——是为爱付出一切 "
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#f1ede8"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="含羞草－－自卑"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#ddddf7"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="夜来香－－在危险边缘寻乐"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#feffe3"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="非洲菊——永远快乐"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#effff8"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="山樱花——纯洁/高尚/淡薄"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#eef9ed"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text=".百合——纯洁/神圣 "
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#f3f3fc"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="菖蒲——相信者的幸福 "
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#f9e5de"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="木棉花——珍惜眼前的幸福"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#eef1d4"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="雏菊——隐藏爱情"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#f6f0fd"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="茉莉花——你是我的"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#eaf4fd"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="密蒙花——请幸福到来"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#f1f9e7"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="星辰花——永不变心"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#fffcf3"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="麦杆菊——永恒的记忆"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#f3f7df"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="牵牛花——爱情永固"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#fdf1f4"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="白日菊——永失我爱"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#e5e7fd"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="紫云英——没有爱的期待"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#e7fdf6"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="天竺葵——偶然的相遇"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#ece5fc"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="彩叶草——绝望的恋情"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:cardBackgroundColor="#fffcef"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="海芋——希望,雄壮之美 "
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="35dp"
+                app:cardBackgroundColor="#f9e3e3"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/top_text50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:text="小苍兰——纯洁、幸福、清新舒畅"
+                    android:textColor="#717372"
+                    android:textSize="20dp" />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
